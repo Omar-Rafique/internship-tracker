@@ -76,5 +76,5 @@ input:focus-visible, select:focus-visible, textarea:focus-visible, button:focus-
 .bars { list-style: none; padding: 0; margin: 0; display: grid; gap: 0.6rem; }
 .bars li { display: grid; grid-template-columns: 90px 1fr 32px; align-items: center; gap: 0.75rem; }
 .bar-track { background: #f1f5f9; border-radius: 999px; height: 14px; overflow: hidden; }
-.bar-fill { display: block; height: 100%; border-top: 14px solid; border-radius: 999px; }
+.bar-fill { display: block; height: 100%; border-radius: 999px; }
 .bar-value { text-align: right; font-weight: 600; }
