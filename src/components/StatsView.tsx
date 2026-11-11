@@ -42,8 +42,11 @@ export default function StatsView() {
                 <span className="bar-label">{STATUS_LABELS[s]}</span>
                 <span className="bar-track">
                   <span
-                    className={`bar-fill column-${s}`}
-                    style={{ width: `${(stats.byStatus[s] / max) * 100}%` }}
+                    className="bar-fill"
+                    style={{
+                      width: `${(stats.byStatus[s] / max) * 100}%`,
+                      background: `var(--${s})`,
+                    }}
                   />
                 </span>
                 <span className="bar-value">{stats.byStatus[s]}</span>
